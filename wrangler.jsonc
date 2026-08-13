@@ -1,0 +1,11 @@
+// Cloudflare Workers config — static-assets worker serving the Signplane site.
+// Deployed automatically by Workers Builds: `npx wrangler deploy` on push to main.
+{
+  "name": "signplane-website",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "single-page-application"
+  }
+}
