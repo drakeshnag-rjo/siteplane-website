@@ -245,24 +245,24 @@
 
 <section id="pricing"><div class="wrap reveal">
   <span class="eyebrow">Pricing</span>
-  <h2>Start free. Enforce when you're ready.</h2>
-  <p class="lead">Priced on governed agents and environments — never seats.</p>
+  <h2>Free to self-host. Paid when we run it.</h2>
+  <p class="lead">Signplane is open source (AGPL-3.0) — the full product, no feature gates. You pay when we operate it for you.</p>
   <div class="tiers">
     <div class="tier hot"><span class="hotchip">START HERE</span>
-      <div class="tname">Observe</div><div class="price">Free</div><div class="per">forever</div>
-      <ul><li>Observe-only mode</li><li>3 agents, unlimited visibility</li><li>Risk scoring &amp; policy match</li><li>Evidence ledger</li><li>One-hour setup</li></ul>
-      <a class="btn btn-primary" href="mailto:pilot@signplane.com?subject=Observe%20tier">See what your agents are doing</a></div>
-    <div class="tier"><div class="tname">Starter</div><div class="price">$25K</div><div class="per">per year</div>
-      <ul><li>10 agents · 3 environments</li><li>Enforcement &amp; approvals</li><li>Scheduled changes + drift guard</li><li>Evidence export (SOC 2 / SOX)</li></ul>
-      <a class="btn btn-ghost" href="mailto:pilot@signplane.com?subject=Starter">Talk to us</a></div>
-    <div class="tier"><div class="tname">Business</div><div class="price">$60K</div><div class="per">per year</div>
-      <ul><li>50 agents · multi-cloud</li><li>Verified rollback</li><li>SSO / RBAC*</li><li>SIEM streaming*</li></ul>
-      <a class="btn btn-ghost" href="mailto:pilot@signplane.com?subject=Business">Talk to us</a></div>
-    <div class="tier"><div class="tname">Enterprise</div><div class="price">$120K+</div><div class="per">per year</div>
-      <ul><li>Fully self-hosted</li><li>Custom agent frameworks</li><li>Dedicated support</li></ul>
-      <a class="btn btn-ghost" href="mailto:pilot@signplane.com?subject=Enterprise">Talk to us</a></div>
+      <div class="tname">Open Source</div><div class="price">Free</div><div class="per">forever · AGPL-3.0</div>
+      <ul><li>The complete product — gateway, policy, approvals, evidence, rollback</li><li>SSO, RBAC, Slack / Jira / ServiceNow / SIEM included</li><li>Self-hosted in your environment</li><li>Community support</li></ul>
+      <a class="btn btn-primary" href="https://github.com/drakeshnag-rjo/siteplane-website">Get the code →</a></div>
+    <div class="tier"><div class="tname">Cloud</div><div class="price">$25K</div><div class="per">per year</div>
+      <ul><li>We host the control plane</li><li>Your gateway &amp; credentials stay in your environment</li><li>10 agents · 3 environments</li><li>Upgrades, backups, support</li></ul>
+      <a class="btn btn-ghost" href="mailto:pilot@signplane.com?subject=Cloud">Talk to us</a></div>
+    <div class="tier"><div class="tname">Cloud Business</div><div class="price">$60K</div><div class="per">per year</div>
+      <ul><li>50 agents · multi-cloud</li><li>SLA &amp; priority support</li><li>SSO onboarding</li><li>Compliance evidence reviews</li></ul>
+      <a class="btn btn-ghost" href="mailto:pilot@signplane.com?subject=Cloud%20Business">Talk to us</a></div>
+    <div class="tier"><div class="tname">Managed Self-Hosted</div><div class="price">$120K+</div><div class="per">per year</div>
+      <ul><li>We install, upgrade &amp; operate it inside your environment</li><li>Air-gapped friendly</li><li>Custom agent frameworks</li><li>Dedicated support</li></ul>
+      <a class="btn btn-ghost" href="mailto:pilot@signplane.com?subject=Managed">Talk to us</a></div>
   </div>
-  <p class="ctanote" style="margin-top:14px">* private beta</p>
+  <p class="ctanote" style="margin-top:14px">open source means open: the free tier is not a trial</p>
 </div></section>
 
 <section class="tint" id="faq"><div class="wrap reveal">
@@ -274,6 +274,7 @@
     <details><summary>We run change management through ServiceNow.</summary><p>Keep it. Signplane's evidence packages are your change records; ticket sync is on the roadmap. What ServiceNow can't do is re-validate cloud state at release time — we do.</p></details>
     <details><summary>Which clouds and tools?</summary><p>AWS + Azure, Terraform/OpenTofu + Kubernetes, GitHub, Slack (beta). Vendor-neutral by design — we govern the layer above your tools, not inside them.</p></details>
     <details><summary>Is the evidence ledger a blockchain?</summary><p>No. It's an append-only hash chain — the boring, auditable kind. Each record carries the hash of the one before it; edit anything and the chain visibly breaks.</p></details>
+    <details><summary>Really open source, or open-core with the good parts paid?</summary><p>Really open source. AGPL-3.0, and the self-hosted product is the whole product — SSO, RBAC, all integrations, evidence export. You pay us to <i>operate</i> Signplane (our cloud, or managed inside your environment), never to unlock features. For a product whose job is producing trustworthy evidence, being auditable ourselves isn't marketing — it's table stakes.</p></details>
   </div>
 </div></section>
 
